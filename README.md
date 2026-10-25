@@ -1,2 +1,13 @@
 # MIRU
 MIRU - Ethical Company Scanner
+
+MIRU is an ethical shopping app that helps users understand the ethics of companies whose products we buy in our daily lives.
+
+With MIRU, users can scan a product’s barcode (or manually enter a product and company name) to explore three areas of company-level ethicality: environmental sustainability, human labor, and animal welfare.
+
+## Tech Stack
+- Flutter/Dart
+- Python
+- OpenAI API
+- Rive
+- UPC Item Database
