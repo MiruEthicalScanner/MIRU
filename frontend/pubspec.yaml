@@ -1,0 +1,41 @@
+name: miru
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+3
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  icons_flutter: ^0.0.6
+  material_symbols_icons: ^4.2951.0
+  mobile_scanner: ^7.2.0
+  lock_orientation_screen: ^0.0.4
+  provider: ^6.1.5+1
+  google_fonts: ^8.2.1
+  feedback: ^3.2.0
+  in_app_review: ^2.0.12
+  flutter_email_sender: ^10.0.1
+  shared_preferences: ^2.5.5
+  cupertino_icons: ^1.0.9
+  animated_bottom_navigation_bar: ^1.4.1
+  http: ^1.6.0
+  flutter_toggle_button: ^0.0.4
+  animated_toggle_switch: ^0.8.7
+  rive: ^0.14.11
+  url_launcher: ^6.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/cutie.jpg
+    # - assets/mirufinal.riv
+    - assets/MIRU Catalog/
+    - assets/Rives/
