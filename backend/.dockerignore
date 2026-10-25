@@ -1,0 +1,28 @@
+# Send only the required MIRU files to the Docker build.
+# Ignore everything first, then include the explicit files below.
+**
+
+!/.dockerignore
+!/.gcloudignore
+!/Dockerfile
+!/requirements.txt
+
+!/app.py
+!/worker_app.py
+!/cloud_config.py
+!/job_store.py
+!/task_queue.py
+!/job_worker.py
+!/barcode_lookup.py
+!/models.py
+!/evidence_models.py
+!/rubrics.py
+!/scorer.py
+!/score_service.py
+
+!/research/
+/research/**
+!/research/__init__.py
+!/research/rubric_selector.py
+!/research/web_researcher.py
+!/research/analyzer.py

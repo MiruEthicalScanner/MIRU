@@ -1,0 +1,33 @@
+# Upload only the files needed to build and run MIRU.
+# This controls Google Cloud uploads; keep your existing .gitignore as well.
+*
+
+!/.gcloudignore
+!/.dockerignore
+!/Dockerfile
+!/requirements.txt
+
+!/app.py
+!/worker_app.py
+!/cloud_config.py
+!/job_store.py
+!/task_queue.py
+!/job_worker.py
+!/barcode_lookup.py
+!/models.py
+!/evidence_models.py
+!/rubrics.py
+!/scorer.py
+!/score_service.py
+
+!/research/
+/research/*
+!/research/__init__.py
+!/research/rubric_selector.py
+!/research/web_researcher.py
+!/research/analyzer.py
+
+# Never upload generated Python caches.
+__pycache__/
+*.pyc
+*.pyo
