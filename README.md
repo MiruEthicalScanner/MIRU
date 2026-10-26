@@ -6,7 +6,7 @@ MIRU was created by **MI**li Gupta and **LU**mi Yaida, hence the name **MIRU**. 
 **Currently waiting for App Store review!**
 
 ## App Feature Showcase Video (YouTube)
-https://youtube.com/shorts/XbP1UeGYkPc?si=2QR4Fp_gxMcuYIQs
+https://youtube.com/shorts/5e7fMcvJXKw
 
 ## Tech Stack
 - Flutter/Dart
